@@ -21,23 +21,23 @@
 			<p class="form-group ">
                 <label for="nombre" >Nombre<span class="rojo">*</span>:</label>
                 <input type="text" id="nombre" name="nombre">
-                <p class="nombreError"></p>
+                <p class="nombreError rojo"></p>
 			</p>
             <p class="form-group ">
 				<label for="apellido" >Apellidos<span class="rojo">*</span>:</label>
 				<input type="text" id="apellido" name="apellido">
-            <p class="apellidoError"></p>
+                <p class="apellidoError rojo"></p>
 			</p>
             <p class="form-group ">
                 <label for="edad">Edad<span class="rojo">*</span>:</label>
                 <input type="number" id="edad" name="edad">
-            <p class="edadError"></p>
+                <p class="edadError rojo"></p>
             </p>
 			</p>
             <p class="form-group ">
                 <label for="telefono">Teléfono<span class="rojo">*</span>:</label>
                 <input type="text" id="telefono" name="telefono">
-            <p class="apellidoError"></p>
+                 <p class="telefonoError rojo"></p>
             </p>
             </p>
             <p class="form-group ">
@@ -47,14 +47,17 @@
             <p class="form-group ">
             <label for="email">Email<span class="rojo">*</span>:</label>
             <input type="email" id="email" name="email">
+            <p class="emailError rojo"></p>
             </p>
             <p class="form-group ">
                 <label for="password1">Contraseña<span class="rojo">*</span>:</label>
                 <input type="password" name="password1" id="password1">
+                 <p class="pass1Error rojo"></p>
             </p>
             <p class="form-group ">
                 <label for="password2">Repetir Contraseña<span class="rojo">*</span>:</label>
                 <input type="password" name="password2" id="password2">
+                 <p class="pass2Error rojo"></p>
             </p>
 
             <p>
